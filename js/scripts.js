@@ -6,7 +6,16 @@
 $(document).ready(function(){
   $("form").submit(function(event){
     event.preventDefault();
-    $("#results").hide(); // see if you can simplify the hide/show  so i dont have to use so many ids
+    // $("#results").hide(); // see if you can simplify the hide/show  so i dont have to use so many ids
+    const nameInput = $("#name").val();
+    const emailInput = $("#email").val();
+    const telInput = $("#tel").val();
+
+    $("#nameInput").text(nameInput)
+    $("#emailInput").text(emailInput)
+    $("#telInput").text(telInput)
+    
+    $("#results").show();
   });
 });
 

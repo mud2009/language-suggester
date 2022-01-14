@@ -10,7 +10,7 @@
 <body>
   <div class="container">
     <h3>Programming Language Suggester</h3>
-    <div class="language-form">
+    <div id="language-form">
       <form id="form">
         <div class="form-group">
           <label for="name">Name:</label>
@@ -30,13 +30,21 @@
         <div class="form-group"></div>
         <div class="form-group"></div>
         <div class="form-group"></div>
+        <button type="submit" class="btn btn-light">Find the best language for you</button>
       </form>
-      <button type="submit" class="btn btn-light">Find the best language for you</button>
     </div>
     <div id="results">
-      <div id="first-result"></div>
-      <div id="second-result"></div>
-      <div id="third-result"></div>
+      <p>Hello, <span id="nameInput"></span>. Your email address is <span id="emailInput"></span>. Your phone number is <span id="telInput"></span>.</p>
+      </p>
+      <div id="first-result">
+        <h6>A</h6>
+      </div>
+      <div id="second-result">
+        <h6>A</h6>
+      </div>
+      <div id="third-result">
+        <h6>A</h6>
+      </div>
     </div>
   </div>
 </body>
