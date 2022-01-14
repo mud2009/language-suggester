@@ -16,7 +16,12 @@ $(document).ready(function(){
     $("#telInput").text(telInput)
     $("#language-form").hide();
     $("#results").show();
+    $("#form2").submit(function(even){
+      $("#results").hide();
+      $("#language-form").show();
+    });
   });
 });
 
 // maybe try the function Math.max(put parameters in here) to find the value with highest number of matches
+// maybe try jquery effect animations for show/hide
