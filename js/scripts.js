@@ -4,9 +4,9 @@
 
 // user logic
 $(document).ready(function(){
-  $("#form").submit(function(event){
+  $("form").submit(function(event){
     event.preventDefault();
-    $("#results").hide();
+    $("#results").hide(); // see if you can simplify the hide/show  so i dont have to use so many ids
   });
 });
 
