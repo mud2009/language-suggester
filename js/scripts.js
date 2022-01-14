@@ -35,6 +35,7 @@ $(document).ready(function(){
 
     $("#language-form").hide();
     $("#results").show();
+    $("#form")[0].reset();
     $("#form2").submit(function(even){
       $("#results").hide();
       $("#language-form").show();
