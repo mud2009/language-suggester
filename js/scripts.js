@@ -1,5 +1,21 @@
 // business logic
+//  let winningLanguage = Math.max(language1, language2, language3)
 
+// if (winningLanguage === language1){
+//   $("#1").show();
+// } else if (winningLanguage === language2){
+//   $("#2").show();
+// } else if (winningLanguage === language3){
+//   $("#3").show();
+// } else if (winningLanguage === language1 && winningLanguage === language2){
+//   $("#1").show();
+// } else if (winningLanguage === language2 && winningLanguage === language3){
+//   $("#2").show();
+// } else if (winningLanguage === language1 && winningLanguage === language3){
+//   $("#1").show();
+// } else {
+//   $("#error").show();
+// }
 
 
 // user logic
@@ -14,6 +30,9 @@ $(document).ready(function(){
     $("#nameInput").text(nameInput)
     $("#emailInput").text(emailInput)
     $("#telInput").text(telInput)
+
+    // parse form answers
+
     $("#language-form").hide();
     $("#results").show();
     $("#form2").submit(function(even){
@@ -25,3 +44,4 @@ $(document).ready(function(){
 
 // maybe try the function Math.max(put parameters in here) to find the value with highest number of matches
 // maybe try jquery effect animations for show/hide
+// make sure the answers from the select box are reset upon clicking the take quiz again button
