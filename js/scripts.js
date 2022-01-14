@@ -1,24 +1,31 @@
 // business logic
-//  let winningLanguage = Math.max(language1, language2, language3)
+function count(value){
+  if (value === 1){
+    cSharp += 1;
+  } else if (value === 2){
+    ruby += 1;
+  } else if (value === 3){
+    javaScript += 1;
+  } 
+}
 
-// if (winningLanguage === language1){
-//   $("#1").show();
-// } else if (winningLanguage === language2){
-//   $("#2").show();
-// } else if (winningLanguage === language3){
-//   $("#3").show();
-// } else if (winningLanguage === language1 && winningLanguage === language2){
-//   $("#1").show();
-// } else if (winningLanguage === language2 && winningLanguage === language3){
-//   $("#2").show();
-// } else if (winningLanguage === language1 && winningLanguage === language3){
-//   $("#1").show();
-// } else {
-//   $("#error").show();
-// }
+let winningLanguage = Math.max(language1, language2, language3)
 
-
-
+if (winningLanguage === language1){
+  $("#1").show();
+} else if (winningLanguage === language2){
+  $("#2").show();
+} else if (winningLanguage === language3){
+  $("#3").show();
+} else if (winningLanguage === language1 && winningLanguage === language2){
+  $("#1").show();
+} else if (winningLanguage === language2 && winningLanguage === language3){
+  $("#2").show();
+} else if (winningLanguage === language1 && winningLanguage === language3){
+  $("#1").show();
+} else {
+  $("#error").show();
+}
 
 // user logic
 $(document).ready(function(){
@@ -34,8 +41,15 @@ $(document).ready(function(){
     $("#telInput").text(telInput)
 
     // parse form answers
-    console.log(parseInt($("#from-where").val()));
+    let cSharp = 0;
+    let ruby = 0;
+    let javaScript = 0;
 
+    count(parseInt($("#from-where").val()));
+    count(parseInt($("#name-change").val()));
+    count(parseInt($("#when").val()));
+    count(parseInt($("#church").val()));
+    count(parseInt($("#education").val()));
 
     $("#language-form").hide();
     $("#results").show();
