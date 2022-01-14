@@ -1,4 +1,4 @@
-* Programming Lanuage Suggester
+# Programming Lanuage Suggester
 
 #### by **Will Greenberg**
 
