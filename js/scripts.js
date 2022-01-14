@@ -18,6 +18,8 @@
 // }
 
 
+
+
 // user logic
 $(document).ready(function(){
   $("form").submit(function(event){
@@ -32,6 +34,8 @@ $(document).ready(function(){
     $("#telInput").text(telInput)
 
     // parse form answers
+    console.log(parseInt($("#from-where").val()));
+
 
     $("#language-form").hide();
     $("#results").show();
