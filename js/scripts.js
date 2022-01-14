@@ -14,7 +14,7 @@ $(document).ready(function(){
     $("#nameInput").text(nameInput)
     $("#emailInput").text(emailInput)
     $("#telInput").text(telInput)
-    
+    $("#language-form").hide();
     $("#results").show();
   });
 });
