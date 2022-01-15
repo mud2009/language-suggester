@@ -25,7 +25,7 @@ function compare(langOne,langTwo, langThree) {
   } else if (langThree > langOne && langThree > langTwo){
     $("#javascript").show();
   } else {
-    $("#error").show();
+    $("#javascript").show();
   }
 }
 
