@@ -13,7 +13,7 @@
 
 ## Description
 
-This site allows users to find a programming language to begin learning. The site achieves this by taking the user's form entries and then calculating which language best suits those entries. :grin:
+This site allows users to find a programming language to learn. The site achieves this by taking the user's form entries and then calculating which language best suits those entries. :grin:
 
 ## Link to site
 
