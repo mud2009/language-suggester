@@ -27,7 +27,7 @@ This site is accessible [here](https://mud2009.github.io/language-suggester/).
 
 ## Known bugs
 
-<!-- * None so far. -->
+* None so far.
 
 ## License
 
