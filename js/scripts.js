@@ -56,8 +56,8 @@ $(document).ready(function(){
     ruby = 0;
     javaScript = 0;  
     $("#form2").submit(function(even){
-      $("#results").hide();
-      $("#language-form").show();
+      $("#results").slideUp();
+      $("#language-form").slideDown();
     });
   });
 });
