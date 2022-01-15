@@ -18,4 +18,5 @@ body {
 
 img {
   padding-bottom: 10px;
+  max-width: 300px;
 }
