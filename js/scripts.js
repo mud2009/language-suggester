@@ -18,7 +18,7 @@ function compare(langOne,langTwo, langThree) {
   $("#ruby").hide();
   $("#javascript").hide();
   $("#error").hide();
-  if (langOne > langTwo && langOne > langTwo) {
+  if (langOne > langTwo && langOne > langThree) {
     $("#c-sharp").show();
   } else if (langTwo > langOne && langTwo > langThree){
     $("#ruby").show();
